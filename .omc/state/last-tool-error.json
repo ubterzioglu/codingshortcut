@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"c:\\\\temp_private\\\\codingshortcut\\\" && npm audit 2>&1 | head -40\",\"description\":\"Check npm audit details\"}",
+  "error": "Exit code 1\n# npm audit report\n\nesbuild  <=0.24.2\nSeverity: moderate\nesbuild enables any website to send any requests to the development server and read the response - https://github.com/advisories/GHSA-67mh-4wv8-2f99\nfix available via `npm audit fix --force`\nWill install vite@8.1.5, which is a breaking change\nnode_modules/esbuild\n  vite  <=6.4.2\n  Depends on vulnerable versions of esbuild\n  node_modules/vite\n\n\n2 vulnerabilities (1 moderate, 1 high)\n\nTo address all issues (including breaking cha...",
+  "timestamp": "2026-07-25T14:14:05.227Z",
+  "retry_count": 2
+}
